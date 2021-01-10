@@ -1,0 +1,167 @@
+body{
+  background-color: #f6f6f6;
+  font: 1em/1.5em 'Crimson Text';
+  font-family: 'Crimson Text', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.name{
+  font-weight: bold;
+}
+.aTagFooter{
+  color: red;
+  text-decoration:none;
+  margin-left: 30px;
+}
+.aTagFooter:hover{
+  color: black;
+  text-decoration: none;
+}
+.p{
+  margin-top: 0;
+}
+@media only screen and (max-width: 700px) {
+  .outerDiv{
+  background-color: white;
+  padding: 20px;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+  }
+  .divATagNav{
+    display: flex;
+    flex-direction: row;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: .75em;
+    margin: 20px;
+  }
+  .hideOnSmallScreen{
+    display: none;
+  }
+  #intro {
+	margin: 60px 0 60px 0;
+	text-align: center;
+	font-style: italic;
+  font-size: 1.4em;
+}
+span.f {
+	font-size: 30px;
+	float: left;
+	margin: 5px 6px 5px 0;
+}
+img{
+  width: 80%;
+  height: auto;
+}
+.sectionContact{
+  margin-top: 50px;
+}
+}
+@media only screen and (min-width:600px) {
+  .sectionContact{
+    margin-top: 100px;
+  }
+  .divImage{
+    display: flex;
+    justify-content: center;
+  }
+  img{
+    width: 100%;
+
+    height: auto;
+  }
+  section{
+    padding-right: 30%;
+  }
+  p{
+    font-size: 20px;
+  }
+  p.f{
+    font-size: 20px;
+  }
+  .outerDiv{
+    width: 80%;
+    padding: 100px;
+    border: 1px solid white;
+    background-color: white;
+  }
+  p.second{
+    text-align: left;
+    margin-top: 3%;
+    text-indent: 5%;
+    line-height: 25px;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5%;
+  }
+  h1{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-right: 20%;
+    font-weight: normal;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+  }
+  .hideOnLargeScreen{
+    display: none;
+  }
+  #intro {
+	margin: 60px 0 60px 0;
+	text-align: center;
+	font-style: italic;
+}
+span.f {
+	font-size: 80px;
+	float: left;
+	margin: 20px 6px 5px 0;
+}
+.aTagNav{
+  color: #666;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+}
+
+h1{
+  font-size: 30px;
+  font-weight: normal;
+}
+.aTagNav{
+  color: #666;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.aTagNav:hover{
+  color: black;
+  text-decoration: none;
+}
+.aTagContact{
+  color: red;
+}
+.aTagContact:hover{
+  color: black;
+}
+.contact{
+  margin-top:  50px;
+}
